@@ -64,6 +64,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       ),
                       Container(
                         child: Image.network(snapshot.data!.docChanges[index].doc['imagen'].toString()),
+                          width: 150.0,
+                          height: 150.0
                         ),
                       Padding(
                         padding: const EdgeInsets.only(
